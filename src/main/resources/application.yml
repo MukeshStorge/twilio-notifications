@@ -1,7 +1,7 @@
 twilio:
-  account_sid: ACb1f3508d6d4457c072fc0ad4c201dde1
-  auth_token: 97f1227b6c81a4ab7301292df3481834
-  trial_number: +13608136132
+  account_sid: ACb1f3508d6d4457c072fc0ad4c201dd**
+  auth_token: 263d17aca94dbf84fc18ecd301075ffa
+  trial_number: +136081361**
 
 server:
     port: 8090

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("api/v1/sms")
+@RequestMapping("api/message")
 public class Controller {
 
     private final Service service;
@@ -19,12 +19,12 @@ public class Controller {
         this.service = service;
     }
 
-    @PostMapping
+    @PostMapping("/sms")
     public void sendSms(@Valid @RequestBody MessageRequest messageRequest) {
         service.sendSms(messageRequest);
     }
-    @PostMapping
     
+    @PostMapping("/whatsapp")
     public void sendWhatsapp(@Valid @RequestBody MessageRequest messageRequest) {
         service.sendWhatsapp(messageRequest);
     }
