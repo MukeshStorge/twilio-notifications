@@ -1,4 +1,4 @@
-# twilio-notifications
+# twilio-notifications (SMS/Whatsapp)
 
 Create sandbox account from twilio portal and get the below details for sms and whatsapp. Link: https://www.twilio.com/docs/whatsapp/sandbox
 Update the details in applications.yml
