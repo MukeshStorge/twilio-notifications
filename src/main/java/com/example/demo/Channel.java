@@ -2,11 +2,12 @@ package com.example.demo;
 
 import javax.validation.Valid;
 
+import com.twilio.rest.api.v2010.account.Message;
+
 public interface Channel {
 
-    void sendSms(MessageRequest messageRequest);
+	Message sendSms(@Valid MessageRequest messageRequest);
 
-	void sendWhatsapp(@Valid MessageRequest messageRequest);
+	Message sendWhatsapp(@Valid MessageRequest messageRequest);
 
-    // or maybe void sendSms(String phoneNumber, String message);
 }
