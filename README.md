@@ -1,4 +1,4 @@
-# twilio-notifications (SMS/Whatsapp)
+# Twilio Notifications (SMS/Whatsapp)
 
 ### Required:
 
